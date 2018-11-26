@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import vueGoogleSerp from "./components/vueGoogleSerp.vue"
+import VueGoogleSerp from "./components/VueGoogleSerp.vue"
 
 export default {
 	name: "app",
 	components: {
-		vueGoogleSerp
+		VueGoogleSerp
 	}
 }
 </script>
