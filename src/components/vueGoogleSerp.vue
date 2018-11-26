@@ -10,7 +10,7 @@
 
 <script>
 export default {
-	name: "vueSerp",
+	name: "vueGoogleSerp",
 	props: {
         title: { required: true, type: String },
         url: { required: true, type: String },
