@@ -1,6 +1,7 @@
 {
 	"name": "@24consulting/vue-google-serp",
-	"version": "0.1.0",
+	"version": "0.1.2",
+	"description": "Easy to use serp simulator component for Vue",
 	"private": false,
 	"scripts": {
 		"serve": "vue-cli-service serve",
@@ -36,12 +37,28 @@
 			"parser": "babel-eslint"
 		}
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/24Consulting/vue-google-serp.git"
+	},
+	"keywords": [
+		"vue",
+		"google",
+		"serp",
+		"simulator"
+	],
+	"author": "Riccardo Strom",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/24Consulting/vue-google-serp/issues"
+	},
+	"homepage": "https://github.com/24Consulting/vue-google-serp#readme",
 	"postcss": {
 		"plugins": {
 			"autoprefixer": {}
 		}
 	},
-	"main": "src/components/VueGoogleSerp.js",
+	"main": "src/components/VueGoogleSerp.vue",
 	"browserslist": [
 		"> 1%",
 		"last 2 versions",

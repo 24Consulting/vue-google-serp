@@ -1,11 +1,11 @@
 <template>
-    <div class="vue-google-serp">
-        <div class="preview">
-            <h3>{{title | truncate(title_length)}}</h3>
-            <cite>{{url}}</cite>
-            <p>{{description | truncate(description_length)}}</p>
-        </div>
+  <div class="vue-google-serp">
+    <div class="preview">
+      <h3>{{title | truncate(title_length)}}</h3>
+      <cite>{{url}}</cite>
+      <p>{{description | truncate(description_length)}}</p>
     </div>
+  </div>
 </template>
 
 <script>
@@ -29,7 +29,7 @@ export default {
 
 <style lang="scss">
 .vue-google-serp {
-	font-family: arial, sans-serif !important;
+    font-family: arial, sans-serif !important;
 	margin: 0;
 	padding: 0;
     .preview {
@@ -39,6 +39,7 @@ export default {
 	border-radius: 5px;
     }
     h3 {
+    font-family: arial, sans-serif !important;
     margin: 0;
     color: rgb(26, 13, 171);
     font-size: 18px;
@@ -46,12 +47,14 @@ export default {
     line-height: 1.2;
     }
     p {
+    font-family: arial, sans-serif !important;
     margin: 0;
     color: rgb(84, 84, 84);
     font-size: 13px;
     line-height: 1.4;
     }
     cite {
+    font-family: arial, sans-serif !important;
     margin: 0;
     font-style: normal;
     height: 18px;
