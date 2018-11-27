@@ -1,5 +1,5 @@
 {
-	"name": "@24consulting/vue-google-serp",
+	"name": "vue-google-serp",
 	"version": "0.1.2",
 	"description": "Easy to use serp simulator component for Vue",
 	"private": false,
